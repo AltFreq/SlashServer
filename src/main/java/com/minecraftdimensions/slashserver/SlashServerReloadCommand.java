@@ -27,7 +27,7 @@ public class SlashServerReloadCommand extends Command {
             SlashServer.time.put( data, SlashServer.c.getInt( data, 0 ) );
         }
         SlashServer.ALREADY_ON_SERVER = SlashServer.color(SlashServer.c.getString( "ALREADY_ON_SERVER", "&cYou are already on that server!" ));
-        SlashServer.TELEPORTING = SlashServer.color(SlashServer.c.getString( "TELEPORTING", "&2Teleporting your to the server {name}" ));
+        SlashServer.TELEPORTING = SlashServer.color(SlashServer.c.getString( "TELEPORTING", "&2Teleporting you to the server {name}" ));
         SlashServer.ALREADY_TELEPORTING = SlashServer.color(SlashServer.c.getString( "ALREADY_TELEPORTING", "&cAlready teleporting you to a server" ));
         sender.sendMessage( "Config reloaded" );
     }
